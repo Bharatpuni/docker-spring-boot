@@ -1,4 +1,4 @@
-package com.devops.coach;
+package com.Bharath.Kumar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Howdy Folks from Coach AK Training..!!!! ");
-        model.addAttribute("msg", "Hello All..We are deploying springboot application into EKS cluster using Helm + Jenkins Pipeline!!!!");
+        model.addAttribute("title", "Testing Git-Mvn-Docker-Helm-K8s with Jenkins pipeline..!!!! ");
+        model.addAttribute("msg", "Hello All..I have deployed springboot application into EKS cluster using Helm + Jenkins Pipeline!!!!");
         return "index";
     }
 
